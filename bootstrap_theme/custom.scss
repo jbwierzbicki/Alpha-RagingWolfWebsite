@@ -1,0 +1,117 @@
+/* Bootstrap theme customized with Pinegrow Web Editor */
+/* Vars go before the @import */
+/* Import the Bootstrap files */
+@import "bootstrap/bootstrap";
+
+/* Fonts */
+$brand-font: Lustria;
+$alt-font: Muli;
+
+/* Font Sizes */
+$title1-fontsize: 40px;
+$title2-fontsize: 32px;
+$title3-fontsize: 28px;
+$title4-fontsize: 24px;
+$title5-fontsize: 20px;
+$title6-fontsize: 16px;
+$content-fontsize: 16px;
+$small-fontsize: 13px;
+
+/* Colors */
+$primary-color: #A7001E;
+$dark-color: #1E0F1C;
+$light-color: #FFFF00;
+$accent-color: #F6F6F6;
+$background-color: white;
+
+/* Custom CSS */
+
+/* Primary Elements */
+h1 {
+    font-size: $title1-fontsize;
+    font-family: $brand-font;
+}
+
+h2 {
+    font-size: $title2-fontsize;
+    font-family: $brand-font;
+}
+
+h3 {
+    font-size: $title3-fontsize;
+    font-family: $brand-font;
+}
+
+h4 {
+    font-size: $title4-fontsize;
+    font-family: $alt-font;
+}
+
+h5 {
+    font-size: $title5-fontsize;
+    font-family: $alt-font;
+}
+
+h6 {
+    font-size: $title6-fontsize;
+    font-family: $alt-font;
+}
+
+p {
+    font-size: $content-fontsize;
+    font-family: $alt-font;
+}
+
+li {
+    font-size: $content-fontsize;
+    font-family: $alt-font;
+}
+
+/* Containers */
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Main Navbar */
+.navbar {
+    padding-left: 2.917% !important;
+    padding-right: 2.917% !important;
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    font-family: $brand-font;
+    margin-right: 30px;
+    font-size: $content-fontsize;
+}
+
+.nav-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+/* Buttons */
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
+
+
+/* example taken from https://stackoverflow.com/a/48976550/3466464 */
+/* import what we need to override */
+@import "bootstrap/_functions";
+@import "bootstrap/_variables";
+
+/* set the overriding variables */
+$grid-breakpoints: (xxl: 1440px,
+    xxxl: 1600px);
+$container-max-widths: (xxl: 1440px,
+    xxxl: 1600px);
+
+/* override the !default vars with the values we set above */
+@import "bootstrap/bootstrap";
