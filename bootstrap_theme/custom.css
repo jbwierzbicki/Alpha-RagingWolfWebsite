@@ -7668,10 +7668,6 @@ li {
   font-family: Muli; }
 
 /* Containers */
-.body-container {
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
 /* Main Navbar */
 .navbar {
   padding-left: 2.917% !important;
@@ -7682,7 +7678,7 @@ li {
   height: 100px; }
 
 .nav-link {
-  font-family: Muli;
+  font-family: Lustria;
   margin-right: 30px;
   font-size: 16px; }
 
@@ -7695,7 +7691,8 @@ li {
   background: #A7001E;
   color: white;
   padding-top: 5px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  z-index: 100; }
 
 .call-us-row p {
   margin: auto; }
@@ -7715,19 +7712,6 @@ li {
   margin-top: 4.6%;
   z-index: 3; }
 
-.header-card::before {
-  position: absolute;
-  left: 3%;
-  /*left: 1em;*/
-  top: -1.5em;
-  content: '';
-  z-index: -1;
-  width: 200px;
-  height: 200px;
-  background: #FFFFFF;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.22);
-  border-radius: 6px; }
-
 .header-card {
   background: #FFFFFF;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
@@ -7735,7 +7719,10 @@ li {
   margin-top: 25px;
   margin-bottom: 20px;
   margin-left: 8.33%;
-  max-width: 500px; }
+  max-width: 500px;
+  transform: scale(1);
+  animation: pulse 2s 2.5;
+  z-index: 9999; }
 
 .header-content {
   padding-top: 7%;
@@ -7743,7 +7730,8 @@ li {
   padding-left: 7%;
   padding-right: 7%; }
 
-.header-content h1, h5 {
+.header-content h1,
+h5 {
   padding-bottom: 15px; }
 
 .header-section-left button {
@@ -7765,6 +7753,11 @@ li {
   margin-bottom: auto;
   padding-bottom: 0px; }
 
+.contact-btn:hover {
+  background: #9B0012 !important;
+  border: 2px solid #9B0012 !important;
+  transform: scale(1.025); }
+
 .track-btn {
   border: 2px solid #A7001E !important;
   box-sizing: border-box;
@@ -7777,6 +7770,9 @@ li {
   margin-bottom: auto;
   padding-bottom: 0px; }
 
+.track-btn:hover {
+  transform: scale(1.025); }
+
 .header-section-right {
   max-width: 50%;
   z-index: 1; }
@@ -7786,8 +7782,7 @@ li {
   max-height: 390px;
   overflow-y: hidden;
   margin-left: -26.416%;
-  position: center;
-  margin-top: 15px; }
+  position: center; }
 
 /* Explore Banner */
 .explore-row {
@@ -7810,9 +7805,12 @@ li {
   padding-right: 1.46%; }
 
 .services-row .col-lg-6 .card {
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
   border-radius: 50px 5px 5px 5px;
-  width: 95%; }
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FAFAFA; }
 
 .services-row .col-lg-6 .card .card-body {
   width: 70%;
@@ -7899,11 +7897,13 @@ li {
   margin-bottom: 75px; }
 
 .benefits-header {
+  margin-top: 25px;
   margin-bottom: 25px;
-  padding-left: 0;
-  padding-right: 0; }
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
 
-.benefits-row .col-lg-5, .col-lg-7 {
+.benefits-row .col-lg-5,
+.col-lg-7 {
   height: 400px;
   vertical-align: middle; }
 
@@ -7948,6 +7948,17 @@ li {
 .staples-row .col-lg-4 h3 {
   margin-bottom: 25px; }
 
+/* Keyframe Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7); }
+  70% {
+    transform: scale(1);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3); }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1); } }
 /* Media Queries */
 /* Medium devices (tablets, 768px and up) -- Switches over to one column */
 @media (max-width: 768px) {
@@ -7972,7 +7983,6 @@ li {
     max-height: 390px;
     overflow-y: hidden;
     position: center;
-    margin-top: 15px;
     margin-left: 0; }
 
   #expedited-ground:before,
@@ -7988,7 +7998,10 @@ li {
     margin-right: auto; }
 
   .header-card::before {
-    display: none !important; } }
+    display: none !important; }
+
+  .services-row .col-lg-6 .card {
+    width: 99%; } }
 /* example taken from https://stackoverflow.com/a/48976550/3466464 */
 /* import what we need to override */
 /* set the overriding variables */
