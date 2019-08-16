@@ -21,6 +21,7 @@ $small-fontsize: 13px;
 $primary-color: #A7001E;
 $dark-color: #1E0F1C;
 $light-color: #FFFF00;
+$bold-color: #9B0012;
 $accent-color: #F6F6F6;
 $white-color: white;
 $background-color: white;
@@ -79,6 +80,10 @@ li {
     padding-left: 2.917% !important;
     padding-right: 2.917% !important;
     margin-bottom: 5px;
+}
+
+.navbar-brand img {
+    height: 100px;
 }
 
 .nav-link {
@@ -356,6 +361,7 @@ li {
     background-repeat: no-repeat;
     background-position: center center;
     content: "";
+    margin-bottom: 25px;
 }
 
 .benefits-row .col-lg-7 {
@@ -371,6 +377,11 @@ li {
 
 .benefits-row .col-lg-7 ul li {
     padding-bottom: 15px;
+}
+
+.benefits-row .col-lg-7 ul li b {
+    color: $bold-color;
+    
 }
 
 /* Staples Row */

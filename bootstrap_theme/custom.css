@@ -7678,6 +7678,9 @@ li {
   padding-right: 2.917% !important;
   margin-bottom: 5px; }
 
+.navbar-brand img {
+  height: 100px; }
+
 .nav-link {
   font-family: Muli;
   margin-right: 30px;
@@ -7908,7 +7911,8 @@ li {
   background: url("../images/benefits-map.svg");
   background-repeat: no-repeat;
   background-position: center center;
-  content: ""; }
+  content: "";
+  margin-bottom: 25px; }
 
 .benefits-row .col-lg-7 {
   display: flex;
@@ -7921,6 +7925,9 @@ li {
 
 .benefits-row .col-lg-7 ul li {
   padding-bottom: 15px; }
+
+.benefits-row .col-lg-7 ul li b {
+  color: #9B0012; }
 
 /* Staples Row */
 .staples-row {
