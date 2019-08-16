@@ -8,3 +8,13 @@ $(window).scroll(function(e){
       $el.css({'position': 'static', 'top': '0px', 'width': 'auto'}); 
     } 
   });
+
+  $(document).ready(function() {
+    $('.services-link').click(function(e) {
+      e.preventDefault();
+  
+      $('html, body').animate({
+        scrollTop: $('.explore-text').offset().top
+      }, 500);
+    });
+  });
