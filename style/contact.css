@@ -44,18 +44,24 @@
 .contact-content {
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15px;
-  width: 80%;
-  background: #FFFFFF;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  background: rgba(255, 255, 255, 0.85);
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
-  border-radius: 6px; }
+  border-radius: 6px;
+  overflow: hidden; }
 
 .phone {
   color: #9B0012; }
 
 .email {
   color: #9B0012; }
+
+@media (max-width: 425px) {
+  .contact-content {
+    overflow: scroll; } }
 
 /*# sourceMappingURL=contact.css.map */

@@ -410,6 +410,12 @@ h5 {
     margin-bottom: 25px;
 }
 
+/* Contact Page Misc */
+.contact-content {
+    transform: scale(1);
+    animation: pulse 2s 2.5;
+}
+
 
 /* Keyframe Animations */
 @keyframes pulse {
