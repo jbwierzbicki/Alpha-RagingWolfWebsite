@@ -116,6 +116,12 @@ li {
     overflow: hidden;
     margin-left: 0px;
     margin-right: 0px;
+    
+    background: url(../images/backgrounds/locations.svg);
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .header-section-left {
@@ -232,6 +238,13 @@ h5 {
     padding-right: 7.083%;
     padding-bottom: 50px;
     margin-bottom: 50px;
+
+    background: url(../images/backgrounds/tracks.svg);
+    background-color: rgba(246, 246, 246, 0.97);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .services-row .col-lg-6 {
