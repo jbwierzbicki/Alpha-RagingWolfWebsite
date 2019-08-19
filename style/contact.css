@@ -41,6 +41,9 @@
   margin-bottom: 40px;
   border: none !important; }
 
+.subject-label {
+  font-family: Muli; }
+
 .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #9B0012;
   background-color: #9B0012; }

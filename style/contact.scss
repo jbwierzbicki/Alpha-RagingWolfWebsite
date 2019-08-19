@@ -70,6 +70,10 @@ $background-color: white;
     border: none !important;
 }
 
+.subject-label {
+    font-family: $alt-font;
+}
+
 .custom-control-input:checked ~ .custom-control-label::before {
     border-color: $bold-color;
     background-color: $bold-color;
