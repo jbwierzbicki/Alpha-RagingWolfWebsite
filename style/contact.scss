@@ -1,0 +1,96 @@
+/* Fonts */
+$brand-font: Lustria;
+$alt-font: Muli;
+
+/* Font Sizes */
+$title1-fontsize: 40px;
+$title2-fontsize: 32px;
+$title3-fontsize: 28px;
+$title4-fontsize: 24px;
+$title5-fontsize: 20px;
+$title6-fontsize: 16px;
+$content-fontsize: 16px;
+$small-fontsize: 13px;
+
+/* Colors */
+$primary-color: #A7001E;
+$dark-color: #1E0F1C;
+$light-color: #FFFF00;
+$bold-color: #9B0012;
+$accent-color: #F6F6F6;
+$white-color: white;
+$background-color: white;
+
+/* Contact Form */
+
+.send-btn {
+    background: $primary-color !important;
+    border: 2px solid $primary-color !important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: $white-color !important;
+    margin-right: 15px;
+    font-family: $alt-font;
+}
+
+.contact-row .col-lg-5, .col-lg-7 {
+    height: auto;
+}
+
+.contact-row {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    
+    background: url(../images/backgrounds/tracks.svg);
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.reach-us-header {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    padding: 0 !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none !important;
+}
+
+.contact-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    width: 80%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+.phone {
+    color: $bold-color;
+}
+
+.email {
+    color: $bold-color;
+}
+
+.body-container {
+
+}
