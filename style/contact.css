@@ -79,7 +79,6 @@
 @media (max-width: 425px) {
   .contact-content {
     overflow: scroll;
-    max-width: 300px;
     padding-left: 3%;
     padding-right: 3%; }
 
