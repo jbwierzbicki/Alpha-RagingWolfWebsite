@@ -423,6 +423,30 @@ h5 {
     margin-bottom: 25px;
 }
 
+/* Footer */
+
+footer {
+    margin-top: 75px;
+}
+
+footer a {
+    color: $bold-color;
+}
+
+.footer-img {
+    width: 50%;
+    margin-top: 16px;
+}
+
+.footer-copyright {
+    color: $white-color;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-copyright a {
+    color: #FF3D60;
+}
+
 /* Contact Page Misc */
 .contact-content {
     transform: scale(1);
