@@ -9,15 +9,6 @@ $(window).scroll(function(e){
     } 
   });
 
-  $(document).ready(function() {
-    $('.services-link').click(function(e) {
-      e.preventDefault();
-  
-      $('html, body').animate({
-        scrollTop: $('.explore-text').offset().top
-      }, 500);
-    });
-  });
 // You can also pass an optional settings object
 // below listed default settings
 AOS.init({

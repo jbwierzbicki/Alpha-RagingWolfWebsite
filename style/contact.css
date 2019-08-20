@@ -24,13 +24,15 @@
   background-size: contain; }
 
 .contact-content {
+  max-width: 500px;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 7%;
+  padding-bottom: 7%;
   background: rgba(255, 255, 255, 0.85);
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
   border-radius: 6px;
@@ -44,7 +46,9 @@
   color: #9B0012; }
 
 .email {
-  color: #9B0012; }
+  color: #9B0012;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
 
 /* Contact Form */
 .contact-form {
