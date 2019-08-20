@@ -70,6 +70,10 @@ $background-color: white;
     margin-bottom: 20px;
 }
 
+.phone-email {
+
+}
+
 .phone {
     color: $bold-color;
 }
@@ -115,5 +119,13 @@ $background-color: white;
 @media (max-width: 425px) {
     .contact-content {
         overflow: scroll;
+        max-width: 300px;
+    }
+    .contact-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .phone-email {
+        
     }
 }

@@ -105,7 +105,19 @@ li {
     z-index:100;
 }
 
+.call-us-row-alt {
+    background: $primary-color;
+    color: $white-color;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index:100;
+}
+
 .call-us-row p {
+    margin: auto;
+}
+
+.call-us-row-alt p {
     margin: auto;
 }
 
@@ -479,7 +491,12 @@ footer a {
 }
 
 /* Media Queries */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .footer-copyright {
+        overflow: hidden;
+        width: 100%;
+    }
+}
 
 @media (min-width: 577px) {}
 

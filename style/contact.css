@@ -78,6 +78,11 @@
 /* Media Queries */
 @media (max-width: 425px) {
   .contact-content {
-    overflow: scroll; } }
+    overflow: scroll;
+    max-width: 300px; }
+
+  .contact-info {
+    padding-left: 0px;
+    padding-right: 0px; } }
 
 /*# sourceMappingURL=contact.css.map */
