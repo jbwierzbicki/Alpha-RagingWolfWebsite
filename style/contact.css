@@ -1,24 +1,16 @@
 /* Fonts */
 /* Font Sizes */
 /* Colors */
-/* Contact Form */
-.send-btn {
-  background: #A7001E !important;
-  border: 2px solid #A7001E !important;
-  box-sizing: border-box;
-  border-radius: 5px;
-  color: white !important;
-  margin-right: 15px;
-  font-family: Muli; }
-
-.contact-row .col-lg-5, .col-lg-7 {
-  height: auto; }
-
+/* General */
 .contact-row {
   height: auto;
   margin-left: 15px;
   margin-right: 15px; }
 
+.contact-row .col-lg-5, .col-lg-7 {
+  height: auto; }
+
+/* Contact Info Panel */
 .contact-info {
   display: flex;
   justify-content: center;
@@ -30,23 +22,6 @@
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: contain; }
-
-.reach-us-header {
-  margin-top: 40px;
-  margin-bottom: 20px; }
-
-.contact-form {
-  padding: 0 !important;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  border: none !important; }
-
-.subject-label {
-  font-family: Muli; }
-
-.custom-control-input:checked ~ .custom-control-label::before {
-  border-color: #9B0012;
-  background-color: #9B0012; }
 
 .contact-content {
   margin-top: 40px;
@@ -61,12 +36,40 @@
   border-radius: 6px;
   overflow: hidden; }
 
+.reach-us-header {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
 .phone {
   color: #9B0012; }
 
 .email {
   color: #9B0012; }
 
+/* Contact Form */
+.contact-form {
+  padding: 0 !important;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none !important; }
+
+.subject-label {
+  font-family: Muli; }
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #9B0012;
+  background-color: #9B0012; }
+
+.send-btn {
+  background: #A7001E !important;
+  border: 2px solid #A7001E !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white !important;
+  margin-right: 15px;
+  font-family: Muli; }
+
+/* Media Queries */
 @media (max-width: 425px) {
   .contact-content {
     overflow: scroll; } }
