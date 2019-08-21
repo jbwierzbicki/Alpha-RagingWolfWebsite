@@ -7667,12 +7667,19 @@ li {
   font-size: 16px;
   font-family: Muli; }
 
+body {
+  background-color: #FAFAFA; }
+
 /* Containers */
+.body-container {
+  background-color: #FAFAFA; }
+
 /* Main Navbar */
 .navbar {
   padding-left: 2.917% !important;
   padding-right: 2.917% !important;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  background-color: #FAFAFA !important; }
 
 .navbar-brand img {
   height: 100px; }
@@ -7714,7 +7721,7 @@ li {
   margin-left: 0px;
   margin-right: 0px;
   background: url(../images/backgrounds/locations.svg);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(250, 250, 250, 0.85);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: contain; }
