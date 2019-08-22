@@ -7814,7 +7814,6 @@ h5 {
 /* Services Row */
 .services-row {
   background: #F6F6F6;
-  box-shadow: 0 0 8px 8px #F6F6F6;
   padding-left: 7.083%;
   padding-right: 7.083%;
   padding-bottom: 50px;
@@ -7964,8 +7963,7 @@ h5 {
   padding-right: 7.11%;
   padding-top: 75px;
   padding-bottom: 10px;
-  background: #F6F6F6;
-  box-shadow: 0 0 8px 8px #F6F6F6; }
+  background: #F6F6F6; }
 
 .staples-row .col-lg-4 {
   margin-bottom: 65px; }

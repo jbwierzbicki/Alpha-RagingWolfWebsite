@@ -76,6 +76,7 @@ body {
 /* Containers */
 .body-container {
     background-color: $background-color;
+    
 }
 
 /* Main Navbar */
@@ -250,12 +251,10 @@ h5 {
 /* Services Row */
 .services-row {
     background: $accent-color;
-    box-shadow: 0 0 8px 8px $accent-color;
     padding-left: 7.083%;
     padding-right: 7.083%;
     padding-bottom: 50px;
     margin-bottom: 50px;
-
     background: url(../images/backgrounds/tracks.svg);
     background-color: rgba(246, 246, 246, 0.97);
     background-blend-mode: lighten;
@@ -424,7 +423,6 @@ h5 {
     padding-top: 75px;
     padding-bottom: 10px;
     background: $accent-color;
-    box-shadow: 0 0 8px 8px $accent-color;
 }
 
 .staples-row .col-lg-4 {
