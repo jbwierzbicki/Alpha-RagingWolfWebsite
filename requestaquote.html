@@ -42,11 +42,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Alpha Tracking</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="requestaquote.html">Request a Quote<span class="sr-only">(current)</span> </a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Request a Quote<span class="sr-only">(current)</span> </a>
                         </li>
-                        <li class="nav-item nav-item-right active">
-                            <a class="nav-link-right nav-link" href="#">Contact</a>
+                        <li class="nav-item nav-item-right">
+                            <a class="nav-link-right nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -61,8 +61,8 @@
             <div class="row contact-row">
                 <div class="col-lg-6 contact-info">
                     <div class="text-center contact-content">
-                        <h1>Need some help?</h1>
-                        <h4>Contact us using the provided form.</h4>
+                        <h1>Looking for a quote?</h1>
+                        <h4>Get one for free using the provided form.</h4>
                         <div class="phone-email">
                             <h6 class="reach-us-header">Reach us directly at: </h6>
                             <h5 class="phone">855-WOLF-PAK (965-3725) </h5>
@@ -77,26 +77,60 @@
                     <form class="border p-5 contact-form"
                         action="https://formspree.io/johnathan@ragingwolfsolutions.com" method="POST">
 
-                        <h4 class="mb-4 text-center">Contact us</h4>
+                        <h4 class="mb-4 text-center">Request a free quote</h4>
 
+                        <select id="defaultSelect" class="browser-default custom-select mb-4"
+                            placeholder="Request a quote" name="Subject" disabled="disabled">
+                            <option value="Request a quote" selected="true" disabled="Request a quote">Request a quote
+                            </option>
+                        </select>
 
+                        <label for="defaultSelect" class="subject-label">Your Information</label>
                         <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name"
                             name="Name">
-
                         <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail"
                             name="Email">
 
-                        <label for="defaultSelect" class="subject-label">Subject</label>
-                        <select id="defaultSelect" class="browser-default custom-select mb-4" name="Subject">
-                            <option value="" disabled="">Choose option</option>
-                            <option value="Feedback" selected="">Feedback</option>
-                            <option value="Request a quote">Request a quote</option>
-                            <option value="Check order status">Check order status</option>
-                            <option value="Other">Other...</option>
-                        </select>
+                        <label for="defaultSelect" class="subject-label">Pickup Date / Time</label>
+                        <input type="date" id="pickupdate" class="form-control mb-4" placeholder="Pickup Date"
+                            name="Pickup Date">
+                        <input type="time" id="pickuptime" class="form-control mb-4" placeholder="Pickup Time"
+                            name="Pickup Time">
 
-                        <textarea name="message" class="form-control rounded-0" id="exampleFormControlTextarea2"
-                            rows="3" placeholder="Message" name="Message"></textarea>
+                        <label for="defaultSelect" class="subject-label">Delivery Date / Time</label>
+                        <input type="date" id="deliverydate" class="form-control mb-4" placeholder="Delivery Date"
+                                name="Delivery Date">
+                        <input type="time" id="deliverytime" class="form-control mb-4" placeholder="Delivery Time"
+                                name="Delivery Time">
+
+                        <label for="defaultSelect" class="subject-label">Shipment Details</label>
+                        <input type="number" id="pickup-zip" class="form-control mb-4" placeholder="Pickup Zip Code"
+                            name="Pickup Zip Code">
+                        <input type="text" id="commodity" class="form-control mb-4" placeholder="Pickup Commodity"
+                            name="Pickup Commodity">
+                        <input type="text" id="weight" class="form-control mb-4" placeholder="Pickup Weight"
+                            name="Pickup Weight">
+                        <input type="number" id="pallet-number" class="form-control mb-4"
+                            placeholder="Number of Pallets" name="Number of Pallets">
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                            <input type="text" id="length" class="form-control mb-4" placeholder="Length"
+                                name="Length">
+                            </div>
+                            <div class="col-lg-4">
+                            <input type="text" id="width" class="form-control mb-4" placeholder="Width"
+                                name="Width">
+                            </div>
+                            <div class="col-lg-4">
+                            <input type="text" id="height" class="form-control mb-4" placeholder="Height"
+                                name="Height">
+                            </div>
+                        </div>
+
+
+                        <textarea name="Comments" class="form-control rounded-0" id="exampleFormControlTextarea2"
+                            rows="3" placeholder="Comments" name="Comments"></textarea>
 
                         <div class="custom-control custom-checkbox mb-4">
                             <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
@@ -104,7 +138,7 @@
                                 message</label>
                         </div>
 
-                        <button class="btn btn-info send-btn" type="submit">Send Message</button>
+                        <button class="btn btn-info send-btn" type="submit">Request Quote</button>
                     </form>
                 </div>
             </div>

@@ -21,7 +21,8 @@
   background-color: rgba(250, 250, 250, 0.85);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  background-position: center center; }
 
 .contact-content {
   max-width: 500px;
