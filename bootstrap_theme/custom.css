@@ -7976,6 +7976,9 @@ h5 {
   margin-bottom: 25px; }
 
 /* Location Row */
+.location-row {
+  padding-top: 75px; }
+
 .location-header .col-lg-12 {
   padding-left: 0 !important;
   padding-right: 0 !important; }
