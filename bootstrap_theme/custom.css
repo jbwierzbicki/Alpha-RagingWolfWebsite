@@ -7975,6 +7975,51 @@ h5 {
 .staples-row .col-lg-4 h3 {
   margin-bottom: 25px; }
 
+/* Location Row */
+.location-header .col-lg-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.fa-building {
+  font-size: 100px;
+  color: #9B0012; }
+
+.fa-envelope {
+  font-size: 100px;
+  color: #9B0012; }
+
+.location-content {
+  margin-top: 10%; }
+
+.location-info .col-lg-5, .col-lg-7 {
+  height: auto; }
+
+.office-col {
+  margin-bottom: 50px;
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.mail-col {
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: auto;
+  width: 100%; }
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: auto;
+  width: 100%; }
+
+.map-credit {
+  opacity: .5; }
+
 /* Footer */
 footer {
   margin-top: 75px; }
