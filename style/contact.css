@@ -92,5 +92,14 @@
     padding-right: 0;
     margin-left: 0;
     margin-right: 0; } }
+/* Request A Quote Page */
+#continueBtn {
+  color: #9B0012;
+  font-weight: bold;
+  opacity: .8;
+  font-family: Muli; }
+
+#continueBtn:hover {
+  cursor: pointer; }
 
 /*# sourceMappingURL=contact.css.map */

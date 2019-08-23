@@ -33,3 +33,15 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+/* Request a Quote */
+function furtherInfo() {
+  var x = document.getElementById("further-info");
+  var y = document.getElementById("continueBtn");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}

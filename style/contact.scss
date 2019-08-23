@@ -138,3 +138,19 @@ $background-color: white;
         
     }
 }
+
+/* Request A Quote Page */
+#continueBtn {
+    color: $bold-color;
+    font-weight: bold;
+    opacity: .8;
+    font-family: $alt-font;
+}
+
+#continueBtn:hover {
+    cursor: pointer;
+}
+
+#further-info {
+
+}
