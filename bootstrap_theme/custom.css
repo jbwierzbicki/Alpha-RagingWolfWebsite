@@ -7801,7 +7801,6 @@ h5 {
 
 .slideshow {
   vertical-align: middle;
-  max-height: 390px;
   overflow-y: hidden;
   margin-left: -26.416%;
   position: center; }
@@ -7818,8 +7817,8 @@ h5 {
   padding-right: 7.083%;
   padding-bottom: 50px;
   margin-bottom: 50px;
-  background: url(../images/backgrounds/tracks.svg);
-  background-color: rgba(246, 246, 246, 0.97);
+  /* background: url(../images/backgrounds/tracks.svg); */
+  background-color: rgba(167, 0, 30, 0.02);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: contain;
@@ -7963,7 +7962,7 @@ h5 {
   padding-right: 7.11%;
   padding-top: 75px;
   padding-bottom: 10px;
-  background: #F6F6F6; }
+  background: rgba(167, 0, 30, 0.02); }
 
 .staples-row .col-lg-4 {
   margin-bottom: 65px; }
@@ -7977,24 +7976,38 @@ h5 {
 
 /* Location Row */
 .location-row {
-  padding-top: 75px; }
+  padding-top: 20px;
+  padding-bottom: 75px; }
+
+.location-header {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
 
 .location-header .col-lg-12 {
   padding-left: 0 !important;
   padding-right: 0 !important; }
 
+.location-map {
+  padding-top: 55px; }
+
 .fa-building {
   font-size: 100px;
-  color: #9B0012; }
+  color: #9B0012;
+  opacity: .8; }
 
 .fa-envelope {
   font-size: 100px;
-  color: #9B0012; }
+  color: #9B0012;
+  opacity: .8; }
+
+.location-info {
+  padding-top: 55px; }
 
 .location-content {
   margin-top: 10%; }
 
-.location-info .col-lg-5, .col-lg-7 {
+.location-info .col-lg-5,
+.col-lg-7 {
   height: auto; }
 
 .office-col {
@@ -8010,7 +8023,6 @@ h5 {
 
 .mapouter {
   position: relative;
-  text-align: right;
   height: auto;
   width: 100%; }
 
@@ -8018,6 +8030,7 @@ h5 {
   overflow: hidden;
   background: none !important;
   height: auto;
+  text-align: center;
   width: 100%; }
 
 .map-credit {
@@ -8108,7 +8121,13 @@ footer a {
     display: none !important; }
 
   .services-row .col-lg-6 .card {
-    width: 99%; } }
+    width: 99%; }
+
+  .office-col-header {
+    margin-top: 23px; }
+
+  .mail-col-header {
+    margin-top: 23px; } }
 /* example taken from https://stackoverflow.com/a/48976550/3466464 */
 /* import what we need to override */
 /* set the overriding variables */
